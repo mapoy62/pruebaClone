@@ -1,0 +1,8 @@
+.altura-min {
+    min-height: 10rem;
+    background: gainsboro;
+}
+
+.altura-col {
+    max-height: 5rem;
+}
