@@ -13,6 +13,10 @@
     ">
     <script>
         console.log("Saoko papi saoko");
+        function colorTitulo(){
+          console.log("Pulse botón");
+          document.getElementById("generation").style.color = "plum";
+        }
     </script>
 </head>
 <body>
@@ -59,9 +63,11 @@
     <div class="container">
         <!--Description Generation-->
         <div class="row">
-            <h1>Estar en Generatiom</h1>
+            <h1>Estar en <span id="generation">Generation</span> es</h1>
             <p>Viernes temáticos Lorem, ipsum dolor sit amet consectetur adipisicing elit. Repellendus laudantium dolorum ipsum eveniet consequatur porro iusto architecto ut cum! In nostrum sunt nisi a non vel ad, architecto officia nemo.</p>
-            <p><a class="btn btn-success" href="https://mexico.generation.org" target="_blank"> Visita Generation</a></p>
+            <p onclick="colorTitulo()">
+              <a class="btn btn-success" href="https://mexico.generation.org" target="_blank"> Visita Generation</a>
+            </p>
         </div>
         <!--Descripción html-->
         <div class="row">
